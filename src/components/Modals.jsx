@@ -1,3 +1,6 @@
+//the "handleClose" is what closes the modal.  The "onClick={handleClose}" ...
+//.. triggers an event that closes the dialog box. 
+
 export default ({ member, handleClose, handleChange }) => {
   return (
     <dialog id="modal-member" open>
