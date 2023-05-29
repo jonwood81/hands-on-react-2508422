@@ -2,10 +2,7 @@ import {useState } from "react";
 
 //pass member info along using the "onChoice" event.  This is triggered by the "onChoice" ...
 //..in the 'export default' line below and in the "onClick" within the <a> tag/element below...
-export default ({onChoice}) => {
-  const [cast, setCast] = useState([]);
-
-
+export default ({cast, onChoice}) => {
     //Show the cast images (cartoon aliens) in a grid format.  Also add a tooltip ...
     //...that displays the name of the member when the user hovers over an image. 
     //This uses the "member id" that each member has in "cast.json" 
